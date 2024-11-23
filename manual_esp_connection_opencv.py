@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import requests  # To send HTTP requests to ESP8266 devices
+import requests  # To send HTTP  requests to ESP8266 devices
 from flask import Flask, jsonify, render_template
 import threading
 import time
