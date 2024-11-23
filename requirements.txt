@@ -1,0 +1,23 @@
+# Core dependencies
+opencv-python-cuda==4.8.0.74    # Latest stable version with RTX 3050 support
+numpy>=1.24.0
+flask>=2.0.0
+requests>=2.31.0
+
+# GPU monitoring
+nvidia-ml-py3>=7.352.0    # For GPU monitoring
+gputil>=1.4.0             # For GPU utilization tracking
+
+# Performance optimization
+numba>=0.57.1            # For CUDA acceleration of Python code
+cupy-cuda12x>=12.2.0     # CuPy with CUDA 12 support for RTX 3050
+
+# Development tools
+logging>=0.5.1.2
+python-dotenv>=1.0.0
+werkzeug>=2.0.0
+
+# System requirements (not pip installable):
+# CUDA Toolkit 12.0 or 11.8
+# NVIDIA Driver >= 525.60.13
+# cuDNN >= 8.8.1
